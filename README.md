@@ -10,10 +10,14 @@ This is An Example of a Flask WebApp that determines weather a person has Brain 
 
 1. Goto https://mahirshah.pythonanywhere.com/webdev/brain_tumor_detector
 2. Download Any Four Images.
+
+
 ![Pituitary](https://user-images.githubusercontent.com/126083518/221361900-59843c6d-bd09-4eac-897d-31bdbac0370a.jpg)
 ![Glioma](https://user-images.githubusercontent.com/126083518/221361904-321bcc33-202b-4e6c-bf88-b1bc0c7f6926.jpg)
 ![NoTumor](https://user-images.githubusercontent.com/126083518/221361906-eb16b47a-2b24-4520-84c7-232943d117ac.jpg)
 ![Meningioma](https://user-images.githubusercontent.com/126083518/221361907-bedeacf1-43a2-456a-a279-faf5895504c9.jpg)
+
+
 3. Upload the Image.
 4. Click Predict.
 
