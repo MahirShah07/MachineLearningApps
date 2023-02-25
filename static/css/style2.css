@@ -1,0 +1,234 @@
+#primary-menu {
+    font-family: 'Roboto mono';
+    font-size: 1.1rem;
+    letter-spacing: -1px;
+}
+
+.chonky-underline-megenta {
+    z-index: 0;
+    position: relative;
+    color: white;
+}
+
+.chonky-underline-megenta::after {
+    transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 13.5%;
+    z-index: -1;
+    height: 0.3em;
+    width: 104%;
+    left: -1%;
+    background: linear-gradient(65deg, #DF058D 0%, #DF058D 100%, rgba(255, 209, 0, 0) 100%);
+}
+
+.chonky-underline-blue {
+    z-index: 0;
+    position: relative;
+    color: white;
+}
+
+.chonky-underline-blue::after {
+    transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 13.5%;
+    z-index: -1;
+    height: 0.3em;
+    width: 104%;
+    left: -1%;
+    background: linear-gradient(65deg, #2C49D8 0%, #2C49D8 100%, rgba(255, 209, 0, 0) 100%);
+}
+
+.chonky-underline-yellow {
+    z-index: 0;
+    position: relative;
+    color: white;
+}
+
+.chonky-underline-yellow::after {
+    transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 13.5%;
+    z-index: -1;
+    height: 0.3em;
+    width: 104%;
+    left: -1%;
+    background: linear-gradient(65deg, #FF6B2B 0%, #FF6B2B 100%, rgba(255, 209, 0, 0) 100%);
+}
+
+.chonky-underline-violet {
+    z-index: 0;
+    position: relative;
+    color: white;
+}
+
+.chonky-underline-violet::after {
+    transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 13.5%;
+    z-index: -1;
+    height: 0.3em;
+    width: 104%;
+    left: -1%;
+    background: linear-gradient(65deg, #9440e8 0%, #9440e8 100%, rgba(255, 209, 0, 0) 100%);
+}
+
+.chonky-underline-violet.has-hover-anim:hover {
+    z-index: 0;
+    position: relative;
+    color: white;
+}
+
+.chonky-underline-violet.has-hover-anim:hover::after {
+    transition: all 0.1s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: 13.5%;
+    z-index: -1;
+    height: 1em;
+    width: 104%;
+    left: -1%;
+    background: linear-gradient(65deg, #9440e8 0%, #9440e8 100%, rgba(255, 209, 0, 0) 100%);
+}
+
+.code-editor-style .elementor-widget-container:after {
+    opacity: 0.3;
+    content: '';
+    width: 0;
+    height: 65%;
+    position: absolute;
+    background-color: white;
+    border: 0.1px solid white;
+    bottom: 17%;
+    left: 17px;
+}
+
+.code-editor-style .elementor-widget-container .elementor-heading-title {
+    padding-left: 35px;
+}
+
+.code-editor-style .elementor-widget-container .elementor-heading-title::before,
+.code-editor-style .elementor-widget-container .elementor-heading-title::after {
+    opacity: 0.3;
+    color: white;
+    display: block;
+    margin-left: -35px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.code-editor-style .elementor-widget-container .elementor-heading-title::before {
+    content: "<h3>";
+    margin-bottom: 5px;
+}
+
+.code-editor-style .elementor-widget-container .elementor-heading-title::after {
+    content: "</h3>";
+    margin-top: 5px;
+}
+
+.has-quote-image:before {
+    content: url("../../wp-content/uploads/2021/07/quote-icon.png");
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.65;
+    zoom: 0.5;
+}
+
+.testimonial-author {
+    font-size: 115%;
+    font-weight: 600;
+}
+
+.testimonial.container {
+    max-width: 900px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .testimonial.container {
+        max-width: 100%;
+    }
+}
+
+.testimonial.container .elementor-container {
+    flex-direction: column;
+    flex-wrap: wrap !important;
+    width: 100%;
+    height: 700px;
+}
+
+.testimonial.container .elementor-container .elementor-column {
+    width: 55%;
+    flex: 1;
+}
+
+.testimonial.container .elementor-container .left {
+    flex: 0 0 100%;
+    width: 45%;
+}
+
+.accordionItem_title h6 {
+    width: 90%;
+}
+
+.accordionItem_title h6>div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 766px) {
+    .testimonial.container .elementor-container {
+        /* 			flex-direction: row !important; */
+        height: initial;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .testimonial.container>.elementor-container>div {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+}
+
+.testimonial.container .elementor-container .right.top {
+    flex: 0 0 45%;
+}
+
+
+/* This used to work for the parent element of button divs */
+
+
+/* But it does not work with newer browsers, the below doesn't hide the play button parent div */
+
+*::-webkit-media-controls-panel {
+    display: none!important;
+    -webkit-appearance: none;
+}
+
+
+/* hide video controls on ios */
+
+
+/* Old shadow dom for play button */
+
+*::-webkit-media-controls-play-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
+
+
+/* New shadow dom for play button */
+
+
+/* This one works! */
+
+*::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+}

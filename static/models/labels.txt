@@ -1,0 +1,4 @@
+0 You have chances of NO BRAIN TUMOR
+1 You have chances of Pituitary brain tumor
+2 You have chances of Meningioma brain tumor  
+3 You have chances of Glioma brain tumor
