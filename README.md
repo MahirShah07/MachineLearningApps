@@ -7,19 +7,16 @@ Using Flask for the back-end engine, HTML for the front-end and using TechableMa
 This is An Example of a Flask WebApp that determines weather a person has Brain Tumor Through MRI Scans. You can also run this.
 
 #Instruction to Start
-
-1. Goto https://mahirshah.pythonanywhere.com/webdev/brain_tumor_detector
+        
+1. Goto   https://mahirshah.pythonanywhere.com/webdev/brain_tumor_detector
 2. Download Any Four Images.
-
-
-![Pituitary](https://user-images.githubusercontent.com/126083518/221361900-59843c6d-bd09-4eac-897d-31bdbac0370a.jpg)![Glioma](https://user-images.githubusercontent.com/126083518/221361904-321bcc33-202b-4e6c-bf88-b1bc0c7f6926.jpg)![NoTumor](https://user-images.githubusercontent.com/126083518/221361906-eb16b47a-2b24-4520-84c7-232943d117ac.jpg)![Meningioma](https://user-images.githubusercontent.com/126083518/221361907-bedeacf1-43a2-456a-a279-faf5895504c9.jpg)
-
-
-
-
-
-3. Upload the Image.
-4. Click Predict.
+   * ![Glicoma](https://github.com/MahirShah07/MachineLearningApps/blob/main/api/static/DataSet/Glioma/Te-glTr_0000.jpg)
+   * ![Meningioma](https://github.com/MahirShah07/MachineLearningApps/blob/main/api/static/DataSet/Meningioma/Te-meTr_0001.jpg)
+   * ![Pituitary](https://github.com/MahirShah07/MachineLearningApps/blob/main/api/static/DataSet/Glioma/Te-glTr_0000.jpg)
+   * ![No Tumor](https://github.com/MahirShah07/MachineLearningApps/blob/main/api/static/DataSet/Pituitary/Te-piTr_0001.jpg)
+5. Upload the Image.
+6. Click Predict.
+Disclamer: Please note that is for educational purposes do not take the results seriously, I suggest to consult docter with rqured qualification before getting any medicine or test. I do not reccomend using this for any industrial purpose. I do not garuntee any results from this website. Mahir Shah cannot be responisble for any damage casued to you.
 
 #How To Use This Template?
 
