@@ -26,11 +26,11 @@ Disclamer: Please note that is for educational purposes do not take the results 
 2. Installing Python (If not already installed)
    * Install Python From its Website according to os requirement https://www.python.org/downloads/
    * Download pip
-     For Windows: Open Command Promt
-     		  $ cd C:\Users\User\AppData\Local\Programs\Python\Python310
-     		  $ python get-pip.py
-     For Linux: $ sudo apt install python3-pip
-     For MacOS: Bro I really don't know this one
+     For Windows: Open Command Promt<br />
+     -------------$ cd C:\Users\User\AppData\Local\Programs\Python\Python310<br />
+     -------------$ python get-pip.py<br />
+     For Linux: $ sudo apt install python3-pip<br />
+     For MacOS: Bro I really don't know this one<br />
    
 3. Download the souce code. or 
    Open Terminal in Folder you want to copy and paste 
