@@ -22,17 +22,29 @@ Disclamer: Please note that is for educational purposes do not take the results 
 
 # To Deploy it on local host:
 1. Download Git: https://git-scm.com/downloads
-2. Download the souce code. or 
-   Open Git Bash in Folder you want to copy and paste 
+
+2. Installing Python (If not already installed)
+   * Install Python From its Website according to os requirement https://www.python.org/downloads/
+   * Download pip
+     For Windows: Open Command Promt
+     		  $ cd C:\Users\User\AppData\Local\Programs\Python\Python310
+     		  $ python get-pip.py
+     For Linux: $ sudo apt install python3-pip
+     For MacOS: Bro I really don't know this one
+   
+3. Download the souce code. or 
+   Open Terminal in Folder you want to copy and paste 
    * $ git clone https://github.com/MahirShah07/MachineLearningApps
 
-3. Open requirements folder and install all python packages/library.
-   * $ pip install <pacakge_name>  
+4. Intalling all required python packages/library.
+   * $ cd MachineLearningApps
+   * $ pip install -r requrements.txt
    
-4. Run index.py from this command.
+5. Run index.py from this command.
    * $ cd api 
    * $ python index.py
-5. And Boom Website is Hosted on your local host
+   
+6. And Boom Website is Hosted on your local host
    * Paste: [LocalHost](https://127.0.0.1:5000) - https://127.0.0.1:5000 in Your Brosure
    
 # To depoly any hosting services.
