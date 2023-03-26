@@ -51,7 +51,7 @@ Disclamer: Please note that is for educational purposes do not take the results 
 To Deploy in hosting services like [Vercel](https://vercel.com/),etc.
 
 1. Paste project link.
-   * https://github.com/MahirShah07/MyWebsite
+   * https://github.com/MahirShah07/MachineLearningApps
    
    Select Deploy it will clone project in your github account.
 2. Then Just Change *app.json* to *<hosting_services>.json*
